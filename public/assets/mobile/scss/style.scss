@@ -1,0 +1,42 @@
+// Importing Bootstrap Variables to Reuse
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+//Importing PayApp Utility Classes
+@import "payapp/variables";
+
+//Importing Dark and Color Scheme
+@import "payapp/dark";
+@import "payapp/colors";
+@import "components/demo";
+
+//Importing Structural Elements
+@import "payapp/typography";
+@import "payapp/structure";
+@import "payapp/header-bar";
+@import "payapp/footer-bar";
+@import "payapp/utilities";
+@import "payapp/sidebar";
+
+//Importing Plugins
+@import "plugins/splide";
+
+//Importing Components and Extending
+@import "components/list-group";
+@import "components/cards";
+@import "components/dividers";
+@import "components/icons";
+@import "components/buttons";
+@import "components/accordion";
+@import "components/tabs";
+@import "components/switches";
+@import "components/notifications";
+@import "components/inputs";
+@import "components/checkradio";
+@import "components/offcanvas";
+@import "components/preloader";
+@import "components/pagination";
+@import "components/offline";
+@import "components/exchanger";
+@import "components/card-stack";
+
